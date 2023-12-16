@@ -13,7 +13,6 @@
   </p>
 </div>
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -25,8 +24,6 @@
     <li><a href="#license">License</a></li>
   </ol>
 </details>
-
-
 
 <!-- About the Project -->
 
@@ -67,6 +64,7 @@ To get going, you need the following:
 * [Install and configure Pi OS](readmes/PIOS.md)
 * [Setup File Sharing](readmes/SMB.md)
 * [Install and configure Plex](readmes/Plex.md)
+* [Set up auto backups](readmes/BackUP.md)
 
 ## Roadmap
 
@@ -75,7 +73,7 @@ To get going, you need the following:
 - [x] Plex Media Server
 - [ ] Nord VPN
 - [ ] PiHole DNS Sinkhole (Firewall & AdBlock)
-- [ ] Backups
+- [x] Backups
 - [ ] Jellyfin (opensource) Media Server
 - [ ] Some other (opensource) VPN with mesh-net support
 - [ ] Script base configurations
