@@ -9,7 +9,7 @@
   <h3 align="center">Life of [raspberry] Pi</h3>
 
   <p align="center">
-    My complete (and also always evolving) pi configuration
+    My (always evolving) MEGA-HOME-SERVER pi configuration
   </p>
 </div>
 
@@ -18,25 +18,11 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About the Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#about-the-project">About the Project</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -45,8 +31,7 @@
 <!-- About the Project -->
 
 # About the Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Cover Image](images/cover_image.png)
 
 This is my guide to setting up a raspberry pi home server that performs (but is not limited to) the following functions:
 * Local file server
@@ -64,8 +49,7 @@ because I never bothered noting down all the work as I'm doing it. This guide sh
 configs, and possibly the start of some automated scripting-configing-recovery-ing-thingamajig.
 
 <!-- GETTING STARTED -->
-## Getting Started
-### Prerequisites
+## Prerequisites
 
 To get going, you need the following:
 * A Raspberry Pi 🥧
@@ -78,11 +62,23 @@ To get going, you need the following:
   * [No wired keyboard / mouse?](./readmes/PIOS.md#dont-have-wired-keyboard--mouse-halp)
 * Coffee ☕️
 
-### Installation
+## Installation
 
 * [Install and configure Pi OS](readmes/PIOS.md)
 * [Setup File Sharing](readmes/SMB.md)
 * [Install and configure Plex](readmes/Plex.md)
+
+## Roadmap
+
+- [x] Base piOS
+- [x] Samba File Server
+- [x] Plex Media Server
+- [ ] Nord VPN
+- [ ] PiHole DNS Sinkhole (Firewall & AdBlock)
+- [ ] Backups
+- [ ] Jellyfin (opensource) Media Server
+- [ ] Some other (opensource) VPN with mesh-net support
+- [ ] Script base configurations
 
 <!-- LICENSE -->
 ## License
